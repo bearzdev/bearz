@@ -1,0 +1,11 @@
+{
+    "tasks": [
+        {
+            "name": "std-dotnet-format",
+            "group": "pre-commit",
+            "command": "dotnet",
+            "args": ["dotnet-format", "--include", "${staged}"],
+            "include": ["**/std-net/**/*.cs"]
+        }
+    ]
+}
