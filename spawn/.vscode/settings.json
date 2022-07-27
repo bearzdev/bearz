@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.git": false, // allow viewing .git folder
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "cSpell.words": [
+        "Bearz"
+    ]
+}
